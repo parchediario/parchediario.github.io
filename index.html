@@ -16,19 +16,28 @@
   .caja { background: var(--panel); border: 1px solid #28343e; border-radius: 14px; padding: 20px 24px; margin: 28px 0; }
   a { color: var(--verde); }
   footer { color: var(--gris); font-size: .9rem; margin-top: 48px; }
+  nav { display: flex; flex-wrap: wrap; gap: 8px 20px; justify-content: space-between; align-items: center; }
+  nav .links a { margin-left: 16px; font-size: .95rem; }
+  nav .links a:first-child { margin-left: 0; }
+  .api { display: inline-block; border: 1px solid var(--verde); color: var(--verde); border-radius: 999px; padding: 4px 14px; font-size: .9rem; margin-top: 24px; }
 </style>
 </head>
 <body>
 <main>
-  <div class="marca">&gt;_ PARCHE DIARIO</div>
+  <nav>
+    <div class="marca">&gt;_ PARCHE DIARIO</div>
+    <div class="links"><a href="privacidad.html">Política de privacidad</a><a href="terminos.html">Condiciones del servicio</a></div>
+  </nav>
+  <div class="api">Usa los Servicios de la API de YouTube · Uses YouTube API Services</div>
   <h1>Seguridad digital para gente común, sin vueltas.</h1>
   <p>Parche Diario es un canal de YouTube en español sobre estafas, cuentas robadas, seguridad del celular y las fallas que obligan a actualizar algo que usás todos los días.</p>
   <div class="caja">
     <p><strong>Cómo se hace:</strong> los videos se generan automáticamente con inteligencia artificial a partir de fuentes oficiales (centros de ayuda de cada servicio, avisos de fabricantes, CISA y NVD). Cada video cita sus fuentes en la descripción y está marcado como contenido sintético.</p>
-    <p><strong>Qué es esta app:</strong> una herramienta interna que solo sube los videos del canal Parche Diario a su propia cuenta de YouTube. No la usan otras personas ni accede a datos de terceros.</p>
+    <p><strong>Qué es esta app:</strong> una herramienta interna que solo sube los videos del canal Parche Diario a su propia cuenta de YouTube, usando los Servicios de la API de YouTube. No la usan otras personas ni accede a datos de terceros. Al usarla se aceptan las <a href="https://www.youtube.com/t/terms" rel="noopener">Condiciones del Servicio de YouTube</a>.</p>
+    <p lang="en"><strong>About this app (English):</strong> an internal tool that only uploads the Parche Diario channel's own videos to its own YouTube account through YouTube API Services. It has no other users and does not access third-party data.</p>
   </div>
-  <p>Contacto: <a href="mailto:parchediario@gmail.com">parchediario@gmail.com</a> · <a href="privacidad.html">Política de privacidad</a></p>
-  <footer>© 2026 Parche Diario</footer>
+  <p>Canal: <a href="https://www.youtube.com/@parchediario" rel="noopener">youtube.com/@parchediario</a> · Contacto: <a href="mailto:parchediario@gmail.com">parchediario@gmail.com</a></p>
+  <footer>© 2026 Parche Diario · <a href="privacidad.html">Política de privacidad</a> · <a href="terminos.html">Condiciones del servicio</a></footer>
 </main>
 </body>
 </html>
